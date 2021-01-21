@@ -1,4 +1,7 @@
 Mikes Doc Section
+
+$env:DEBUG='paperbit-demo:*'; npm start
+
 PS command to run website: $env:DEBUG='myapp:*'; npm start
 CMD command to run website: SET DEBUG=myapp:* & npm start
 Terminal command to run website: DEBUG=myapp:\* npm start
