@@ -1,3 +1,8 @@
+Mikes Doc Section
+PS command to run website: $env:DEBUG='myapp:_'; npm start
+CMD command to run website: SET DEBUG=myapp:_ & npm start
+Terminal command to run website: DEBUG=myapp:\* npm start
+
 # Raspian Recipes
 
 This repo contains various scripts to configure for Raspberry Pi. They can also be used with other Linux distributions by making slight changes.
@@ -12,12 +17,12 @@ First, install `dnsmasq` because it the backbone of most of the recipes.
 
 List of all recipes with descriptions:
 
- - [wifi-to-eth-route.sh](wifi-to-eth-route.sh) — Share Raspberry WiFi with the device on Lan side.
-Give WiFi access to a Non-WiFi device.
+- [wifi-to-eth-route.sh](wifi-to-eth-route.sh) — Share Raspberry WiFi with the device on Lan side.
+  Give WiFi access to a Non-WiFi device.
 
- - [eth-to-wifi-route.sh](eth-to-wifi-route.sh) — Make it WiFi Router.
+- [eth-to-wifi-route.sh](eth-to-wifi-route.sh) — Make it WiFi Router.
 
- - [wifi-to-eth-bridge.sh](wifi-to-eth-bridge.sh) — A layer 3 solution. See #2 for discussion.
+- [wifi-to-eth-bridge.sh](wifi-to-eth-bridge.sh) — A layer 3 solution. See #2 for discussion.
 
 Download a recipe to `pi` user's home directory. For example:
 
